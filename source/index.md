@@ -217,7 +217,42 @@ like | Boolean indicating a `like`
 
 # activityfeed
 
-Same as userfeed.. TBD
+## GET /activityfeed
+
+```shell
+curl -X GET -u USERNAME:PASSWORD\ 
+    http://instamelb.pinkpineapple.me/activityfeed
+```
+
+```java
+N/A
+```
+
+> Returns activities of JSON structure:
+
+```json
+{
+    "activities": [
+        {
+            "activity_id": 1,
+            "activity_event": "follow",
+            "activity_message": "A is following B"
+        },
+        {
+            "activity_id": 2,
+            "activity_event": "like",
+            "activity_message": "A likes B's photo"
+        },
+        {
+            "activity_id": 3,
+            "activity_id": "comment",
+            "activity_message": "A comments on B's photo"
+        }
+    ]
+}
+```
+
+Activity feed. For stuff thats going on. Pagination may apply.
 
 # discover
 
