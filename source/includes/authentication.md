@@ -8,7 +8,7 @@ Hence, username:password must be passed at every route.
 > Authorization is as such:
 
 ```shell
-curl -u USERNAME:PASSWORD\
+curl -u USERNAME:PASSWORD \
     http://instamelb.pinkpineapple.me/
 ```
 
