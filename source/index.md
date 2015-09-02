@@ -11,6 +11,9 @@ toc_footers:
 
 includes:
   - authentication
+  - photos
+  - comments
+  - likes
   - errors
 
 search: true
