@@ -87,73 +87,36 @@ Parameter | Description
 --------- | -----------
 user_id | id of a User
 
-## Get Self Feed
+## Search Users
 
 ```shell
 curl -X GET -u USERNAME:PASSWORD \
-    http://instamelb.pinkpineapple.me/users/self/feed
+    http://instamelb.pinkpineapple.me/users/search?q=Pheo&suggested=false
 ```
 
 ```java
 N/A
 ```
 
-> Successful posting of comment returns JSON of:
+> Sucessful search for users returns JSON of:
 
 ```json
 {
-    "feed": [
+    "result": [
         {
-            "event": "comment",
-            "message": "Pheo commented on A's Photo.",
-            "user_commenting": {
-                "user_id": 1,
-                "username": "Pheo"
-            },
-            "user_commented": {
-                "user_id": 2,
-                "username": "A"
-            },
-            "photo": {
-                "photo_id": 1,
-                "photo_image": "http://images.instamelb.pinkpineapple.me/1.jpg"
-            }
-        },
-        {
-            "event": "like",
-            "message": "Pheo liked A's Photo.",
-            "user_liking": {
-                "user_id": 1,
-                "username": "Pheo"
-            },
-            "user_liked": {
-                "user_id": 2,
-                "username": "A"
-            },
-            "photo": {
-                "photo_id": 1,
-                "photo_image": "http://images.instamelb.pinkpineapple.me/1.jpg"
-            }
-        },
-        {
-            "event": "follow",
-            "message": "Pheo is following A.",
-            "user_following": {
-                "user_id": 1,
-                "username": "Pheo"
-            },
-            "user_followed": {
-                "user_id": 2,
-                "username": "A"
-            }
+            "user_id": 1,
+            "username": "Pheo",
+            "profile_image": "http://images.instamelb.pinkpineapple.me/1.jpg"
         }
     ]
 }
+
 ```
 
-Get authenticated user's feed.
+Searches for users. Allows searching for recommended/suggested users via query arguments.
 
-### HTTP Request
-
-`POST http://instamelb.pinkpineapple.me/users/self/feed`
-
+### Query Parameters
+Parameter | Default | Description
+--------- | ------- | -----------
+q | null | Query string.
+suggested | true | true or false. If set to true, returns results sorted by relevance to authenticated user.

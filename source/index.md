@@ -12,6 +12,8 @@ toc_footers:
 includes:
   - authentication
   - users
+  - follows
+  - feed
   - photos
   - comments
   - likes
