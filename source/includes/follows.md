@@ -92,7 +92,7 @@ N/A
 
 ```json
 {
-    "modified": true
+    "modified": true,
     "action": "follow"
 }
 ```
