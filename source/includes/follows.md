@@ -80,7 +80,10 @@ user_id | id of a User
 ## Follow/Unfollow User
 
 ```shell
-curl -X POST -u USERNAME:PASSWORD \
+curl -H "Content-Type: application/json" -X POST -u USERNAME:PASSWORD \
+    -d '{
+        "action": "follow"
+    }' \
     http://instamelb.pinkpineapple.me/users/1/relationship
 ```
 
