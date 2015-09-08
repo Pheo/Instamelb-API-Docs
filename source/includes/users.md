@@ -66,6 +66,10 @@ N/A
             },
             "likes": {
                 "count": 2045
+            },
+            "location": {
+                "longitude": 123.45,
+                "latitude": 234.56
             }
         }
     ]
