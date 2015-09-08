@@ -88,15 +88,20 @@ curl -X POST -u USERNAME:PASSWORD \
 N/A
 ```
 
-> Sucessful follow/unfollow of a user returns JSON of:
+> Sucessful follow of a user returns JSON of:
 
 ```json
 {
-    "followed": true
+    "modified": true
+    "action": "follow"
 }
 ```
 
 The authenticated user may follow/unfollow another user. No permission to follow is required in Instamelb (constrasting with Instagram)
+
+### HTTP Request
+
+`POST http://instamelb.pinkpineapple.me/users/:user_id/relationship`
 
 ### URL Parameters
 Parameter | Description
