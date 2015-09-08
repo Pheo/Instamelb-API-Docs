@@ -67,6 +67,14 @@ curl -H "Content-Type: application/json" -X POST \
 N/A
 ```
 
+> Successful posting of comment returns JSON of:
+
+```json
+{
+    "posted": true
+}
+```
+
 Post a comment on a photo.
 
 ### HTTP Request
