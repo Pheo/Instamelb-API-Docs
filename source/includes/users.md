@@ -45,7 +45,7 @@ user_id | id of a User
 
 ```shell
 curl -X GET -u USERNAME:PASSWORD \
-    http://instamelb.pinkpineapple.me/users/1/media
+    http://instamelb.pinkpineapple.me/users/1/photos
 ```
 
 ```java
@@ -80,7 +80,7 @@ Gets list of photos posted by a user. Use self as user_id for authenticated user
 
 ### HTTP Request
 
-`GET http://instamelb.pinkpineapple.me/users/:user_id/media`
+`GET http://instamelb.pinkpineapple.me/users/:user_id/photos`
 
 ### URL Parameters
 Parameter | Description
