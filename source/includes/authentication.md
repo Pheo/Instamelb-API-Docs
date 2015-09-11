@@ -35,7 +35,12 @@ N/A
 
 ```json
 {
-    "authenticated": true
+    "authenticated": true,
+    "user": {
+        "user_id": 1,
+        "username": "NEW_USERNAME",
+        "email": "USER@NEW_EMAIL.COM"
+    }
 }
 ```
 
@@ -66,7 +71,13 @@ N/A
 
 ```json
 {
-    "registered": true
+    "registered": true,
+    "user": {
+        "user_id": 1,
+        "username": "NEW_USERNAME",
+        "email": "USER@NEW_EMAIL.COM"
+
+    }
 }
 ```
 
