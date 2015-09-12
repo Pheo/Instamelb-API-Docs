@@ -20,6 +20,7 @@ N/A
     "photo_id": 1,
     "photo_image": "http://images.instamelb.pinkpineapple.me/1.jpg",
     "photo_caption": "Good Photo",
+    "timestamp": 123456,
     "location": {
         "longitude": 123.45,
         "latitude": 234.56
@@ -76,6 +77,7 @@ N/A
     "photo_id": 1,
     "photo_image": "http://images.instamelb.pinkpineapple.me/1.jpg",
     "photo_caption": "Good Photo",
+    "timestamp": 123456,
     "user": {
         "user_id": 1,
         "username": "Pheo",
