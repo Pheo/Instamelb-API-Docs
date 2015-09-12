@@ -103,7 +103,7 @@ N/A
 ```json
 {
     "unliked": false,
-    "error": "Comment not already liked"
+    "error": "Photo not already liked"
 }
 ```
 
