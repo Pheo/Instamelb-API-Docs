@@ -23,8 +23,7 @@ N/A
     "comments": [
         {
             "comment_id": 1,
-            "created_at": 1280780324,
-            "updated_at": 1234124096,
+            "timestamp": 1280780324,
             "location": {
                 "longitude": 123.45,
                 "latitude": 123.45
