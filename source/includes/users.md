@@ -61,6 +61,7 @@ N/A
             "photo_id": 1,
             "photo_image": "http://images.instamelb.pinkpineapple.me/1.jpg",
             "photo_caption": "Good Photo",
+            "timestamp": 123456,
             "comments": {
                 "count": 127
             },
