@@ -24,10 +24,6 @@ N/A
         {
             "comment_id": 1,
             "timestamp": 1280780324,
-            "location": {
-                "longitude": 123.45,
-                "latitude": 123.45
-            },
             "text": "Really amazing photo!",
             "from": {
                 "user_id": 1,
