@@ -59,6 +59,7 @@ curl -H "Content-Type: application/json" -X POST -u USERNAME:PASSWORD \
     -d '{
         "caption": "Test Photo",
         "image": "ABSJM28djDJDJSM3ksi3jDJDSn",
+        "image_thumbnail": "JJSJDCLKNJLKNSDCDABSJM2J",
         "longitude": 123.45,
         "latitude": 234.45
     }' \
