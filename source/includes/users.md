@@ -80,7 +80,6 @@ N/A
 Gets list of photos posted by a user. Use self as user_id for authenticated user.
 
 ### HTTP Request
-
 `GET http://instamelb.pinkpineapple.me/users/:user_id/photos`
 
 ### URL Parameters
@@ -115,6 +114,9 @@ N/A
 ```
 
 Searches for users. Allows searching for recommended/suggested users via query arguments.
+
+### HTTP Request
+`GET http://instamelb.pinkpineapple.me/users/search`
 
 ### Query Parameters
 Parameter | Default | Description
