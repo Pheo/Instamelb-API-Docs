@@ -111,6 +111,7 @@ Uploads a photo to the authenticated user's account.
 Parameters | Type | Description
 ---------- | ---- | -----------
 image | String | BASE64 Compressed string of the image
+image_thumbnail | String | BASE64 Compressed thumbnail string of image
 caption | String | Text caption for the uploaded photo
 latitude | Number | Location Latitude
 longitude | Number | Location Longitude
