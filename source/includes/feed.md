@@ -6,7 +6,7 @@ Two types of Feeds currently available. User (or Self) Feed and Activity (or Fol
 
 ```shell
 curl -X GET -u USERNAME:PASSWORD \
-    http://instamelb.pinkpineapple.me/users/self/feed
+    http://instamelb.pinkpineapple.me/users/self/feed?sort_date=true&sort_location=true
 ```
 
 ```java
@@ -48,6 +48,15 @@ Get authenticated user's feed. AKA "Self Feed".
 ### HTTP Request
 
 `POST http://instamelb.pinkpineapple.me/users/self/feed`
+
+### Query Parameters
+Parameter | Default | Description
+--------- | ------- | -----------
+sort_date | false | Sort by date flag
+sort_location | false | Sort by location flag
+
+`POST http://instamelb.pinkpineapple.me/users/
+
 
 
 ## Get Follows Feed
