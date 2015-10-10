@@ -55,10 +55,6 @@ Parameter | Default | Description
 sort_date | false | Sort by date flag
 sort_location | false | Sort by location flag
 
-`POST http://instamelb.pinkpineapple.me/users/
-
-
-
 ## Get Follows Feed
 
 ```shell
